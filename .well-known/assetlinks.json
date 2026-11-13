@@ -1,8 +1,26 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "io.github.gembirdt_bit.atmosradionica",
-    "sha256_cert_fingerprints": ["2F:75:EE:A5:B9:D7:DC:07:CD:E7:85:F2:89:5D:3F:89:19:80:45:12:C1:48:91:70:01:03:9A:39:3D:EC:2E:A6"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gembirdt_bit.atmosradionica",
+      "sha256_cert_fingerprints": [
+        "2F:75:EE:A5:B9:D7:DC:07:CD:E7:85:F2:89:5D:3F:89:19:80:45:12:C1:48:91:70:01:03:9A:39:3D:EC:2E:A6"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gembirdt_bit.atmosstudio",
+      "sha256_cert_fingerprints": [
+        "2F:75:EE:A5:B9:D7:DC:07:CD:E7:85:F2:89:5D:3F:89:19:80:45:12:C1:48:91:70:01:03:9A:39:3D:EC:2E:A6"
+      ]
+    }
   }
-}]
+]
